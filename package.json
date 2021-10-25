@@ -1,0 +1,35 @@
+{
+  "name": "@brianlem/play_rollup",
+  "version": "0.0.1",
+  "description": "rollup 打包 demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrianLem/play_rollup.git"
+  },
+  "keywords": [
+    "rollup",
+    "typescript"
+  ],
+  "author": "Brian Lem",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrianLem/play_rollup/issues"
+  },
+  "homepage": "https://github.com/BrianLem/play_rollup#readme",
+  "browser": "dist/index.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "rollup": "^2.58.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-typescript": "^1.0.1",
+    "tslib": "^2.3.1",
+    "typescript": "^4.4.4"
+  }
+}
